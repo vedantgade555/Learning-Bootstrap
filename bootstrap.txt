@@ -1,0 +1,8 @@
+bootstrap.min.css file data we can taken from 
+
+There are two types minify and unminify 
+
+1.
+
+>container : Used to fetch space from  the both side of screen
+>container-fluid: Use all width of screen
