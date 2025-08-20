@@ -1,4 +1,9 @@
-.nav-item:hover{
+.hov:hover{
     background-color: red;
     color: white;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px red;
+    transition: 2sec;
 }
