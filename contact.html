@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="4.style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
+        <!-- This link is used for -->
+
+    </head>
+    <body>
+
+        <!-- Header Start -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Kshtriva Groups
+                        <img src="Images/shopping-2825247_1280.png" alt
+                            width="30"
+                            height="24">
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link "
+                                    href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item bg-danger">
+                                <a class="nav-link hov"
+                                    href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Gallary
+                                </a>
+                                <ul class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item"
+                                            href="photo.html">Photo</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="video.html">Video</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <main>
+            <section>
+                <div class="container mt-5">
+                    <div class="row">
+
+                        <!-- Form Section -->
+                        <div class="col-md-6">
+                            <form>
+                                <h1>Contact Form</h1>
+                                <!-- below 2 are used for if we are click on then then they can directly call -->
+                                <p>Phone No: <a href="tel:9028345904">9028345904</a></p>
+                                <p>Mail: <a href="mailto:vedantgade5555@gmail.com">vedantgade5555@gmail.com</a></p>
+
+
+                               <a href="https://www.facebook.com/"> <i class="bi bi-facebook"></i></a>
+                                <div class="row">
+                                    <!-- Name -->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="nameInput"
+                                                placeholder="Enter Name">
+                                            <label for="nameInput">Enter Your
+                                                Name</label>
+                                        </div>
+                                    </div>
+                                    <!-- Password -->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="password"
+                                                class="form-control"
+                                                id="passwordInput"
+                                                placeholder="Password">
+                                            <label
+                                                for="passwordInput">Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <!-- Phone Number -->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="tel"
+                                                class="form-control"
+                                                id="phoneInput"
+                                                placeholder="Enter Mobile No.">
+                                            <label for="phoneInput">Enter Phone
+                                                No.</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Gender -->
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label d-block">Select
+                                            Gender</label>
+                                        <div
+                                            class="form-check form-check-inline">
+                                            <input class="form-check-input"
+                                                type="radio" name="gender"
+                                                id="maleRadio" value="male">
+                                            <label class="form-check-label"
+                                                for="maleRadio">Male</label>
+                                        </div>
+                                        <div
+                                            class="form-check form-check-inline">
+                                            <input class="form-check-input"
+                                                type="radio" name="gender"
+                                                id="femaleRadio" value="female">
+                                            <label class="form-check-label"
+                                                for="femaleRadio">Female</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <!-- City -->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <select class="form-select"
+                                                id="citySelect"
+                                                aria-label="Select City">
+                                                <option selected>Indore</option>
+                                                <option value="1">Pune</option>
+                                                <option
+                                                    value="2">Mumbai</option>
+                                                <option value="3">Delhi</option>
+                                            </select>
+                                            <label for="citySelect">Select
+                                                City</label>
+                                        </div>
+                                    </div>
+
+                                    <!-- Zip Code -->
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="number"
+                                                class="form-control"
+                                                id="zipInput"
+                                                placeholder="Enter Zip Code">
+                                            <label for="zipInput">Enter Zip
+                                                Code</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <button type="submit"
+                                    class="btn btn-primary mt-2">Submit</button>
+                            </form>
+                        </div>
+
+                        <!-- Map Section -->
+                        <div class="col-md-6">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.9691436794387!2d73.47328687296229!3d18.710199563358692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2a9e5ec73dc55%3A0x40175d3a5814b5d!2sLohagad%20Fort%2C%20Lohagad%20Trek%20Rd%2C%20Maharashtra%20410401!5e0!3m2!1sen!2sin!4v1755848343874!5m2!1sen!2sin"
+                                width="100%" height="450" style="border:0;"
+                                allowfullscreen loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>
